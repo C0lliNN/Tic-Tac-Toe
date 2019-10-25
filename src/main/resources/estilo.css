@@ -1,0 +1,125 @@
+
+.root {
+    -fx-font-family: 'Arial';
+}
+
+.button:hover, .combo-box:hover {
+    -fx-cursor: hand;
+}
+
+#iniciar-button {
+    -fx-background-color: #218a01;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,1), 1, 0, 0, 0);
+}
+
+#iniciar-button:hover {
+    -fx-background-color: #228f01;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 2, 0, 0, 0);
+}
+
+.campo-button {
+    -fx-background-color: rgba(255,255,255,0.4);
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.campo-button:hover {
+    -fx-background-color: rgba(255,255,255,0.55);
+}
+
+.jogo-button {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,1), 1.5, 0, 0, 0);
+}
+
+.jogo-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 2, 0, 0, 0);
+}
+
+#reiniciar-button {
+    -fx-background-color: #239401;
+}
+
+#reiniciar-button:hover {
+    -fx-background-color: #259902;
+}
+
+#pausar-retomar-button {
+    -fx-background-color: #ab5e02;
+}
+
+#pausar-retomar-button:hover {
+    -fx-background-color: #bf6902;
+}
+
+#cancelar-button {
+    -fx-background-color: #8a0101;
+}
+
+#cancelar-button:hover {
+    -fx-background-color: #910303;
+}
+
+#play-icon-button {
+    -fx-background-color: transparent;
+}
+
+#play-icon-button:hover {
+    -fx-background-color: rgba(255,255,255,0.5);
+}
+
+/* Combo Box */
+
+.combo-box {
+    -fx-background-color: transparent;
+}
+
+.combo-box:hover, #audio-button:hover {
+    -fx-background-color: rgba(255,255,255,0.5);
+}
+
+.combo-box .combo-box-popup{
+    -fx-padding: 0;
+}
+
+.combo-box .list-view {
+    -fx-padding: 0;
+}
+.combo-box .list-cell {
+    -fx-padding: 2 2 2 2;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: gray;
+    -fx-cursor: hand;
+}
+
+.combo-box .arrow{
+    -fx-background-color: green;
+}
+
+/* Botão Ícone Audio */
+
+#audio-button {
+    -fx-background-color: transparent;
+    -fx-padding: 2;
+}
+
+/* Spinner Volume */
+
+.slider {
+    -fx-background-color: #454545;
+    -fx-background-radius: 5px;
+}
+
+.slider .track {
+    -fx-background-color: #1c1c1c;
+}
+
+.slider .thumb {
+    -fx-background-color: #8a8a8a;
+}
+
