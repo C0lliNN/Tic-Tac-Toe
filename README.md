@@ -1,13 +1,15 @@
-# Jogo da Velha
+# Tic-Tac-Toe
 
-## O Que é ? ##
+## What it is ##
 
-É um Aplicação Desktop feita em JavaFX que reproduz um game muito popular: Jogo da Velha
+An Desktop Application/Game developed in Java Using JavaFX that simulate the Tic-Tac-Toe game.
 
-![Sequência 01_2](https://user-images.githubusercontent.com/44872660/67605039-9a06e480-f753-11e9-8f17-d1bbe1063f2a.gif)
+![Sequência 01_2](https://github.com/C0lliNN/JogoDaVelha/blob/master/screenshots/initial-view.png)
+![sequencia](https://github.com/C0lliNN/JogoDaVelha/blob/master/screenshots/game-view.png)
 
-## Recursos ##
+## Features ##
 
-* Aparência agradável 
-* Animações que conferem maior fluidez ao game 
-* Musica e Efeitos Sonoros 
+* Nice Design
+* Animation which  
+* Animations that give the game more fluidity
+* Background Music e Sound Effects 
