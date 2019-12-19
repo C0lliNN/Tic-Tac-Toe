@@ -8,6 +8,6 @@
 
 ## Recursos ##
 
-* Aparência agradável *
-* Animações que conferem maior fluidez ao game *
-* Musica e Efeitos Sonoros * 
+* Aparência agradável 
+* Animações que conferem maior fluidez ao game 
+* Musica e Efeitos Sonoros 
