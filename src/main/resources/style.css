@@ -7,65 +7,80 @@
     -fx-cursor: hand;
 }
 
-#iniciar-button {
+#title-bar {
+    -fx-background-color: #d68100;
+}
+
+#button-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #7d0202;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+#button-close:hover {
+    -fx-background-color: rgba(255,255,255,0.3);
+}
+
+#button-play {
     -fx-background-color: #218a01;
     -fx-text-fill: white;
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,1), 1, 0, 0, 0);
 }
 
-#iniciar-button:hover {
+#button-play:hover {
     -fx-background-color: #228f01;
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 2, 0, 0, 0);
 }
 
-.campo-button {
+.button-field {
     -fx-background-color: rgba(255,255,255,0.4);
     -fx-border-radius: 0;
     -fx-background-radius: 0;
 }
 
-.campo-button:hover {
+.button-field:hover {
     -fx-background-color: rgba(255,255,255,0.55);
 }
 
-.jogo-button {
+.game-button-control {
     -fx-text-fill: white;
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,1), 1.5, 0, 0, 0);
 }
 
-.jogo-button:hover {
+.game-button-control:hover {
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 2, 0, 0, 0);
 }
 
-#reiniciar-button {
+#button-restart {
     -fx-background-color: #239401;
 }
 
-#reiniciar-button:hover {
+#button-restart:hover {
     -fx-background-color: #259902;
 }
 
-#pausar-retomar-button {
-    -fx-background-color: #ab5e02;
+#button-pause-resume {
+    -fx-background-color: #eb8000;
 }
 
-#pausar-retomar-button:hover {
-    -fx-background-color: #bf6902;
+#button-pause-resume:hover {
+    -fx-background-color: #f08402;
 }
 
-#cancelar-button {
-    -fx-background-color: #8a0101;
+#button-cancel {
+    -fx-background-color: #d60000;
 }
 
-#cancelar-button:hover {
-    -fx-background-color: #910303;
+#button-cancel:hover {
+    -fx-background-color: #de0000;
 }
 
-#play-icon-button {
+#button-play-icon {
     -fx-background-color: transparent;
 }
 
-#play-icon-button:hover {
+#button-play-icon:hover {
     -fx-background-color: rgba(255,255,255,0.5);
 }
 
@@ -103,7 +118,7 @@
 
 /* Botão Ícone Audio */
 
-#audio-button {
+#button-audio {
     -fx-background-color: transparent;
     -fx-padding: 2;
 }

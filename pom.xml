@@ -6,8 +6,8 @@
 
     <groupId>com.raphaelcollin</groupId>
     <artifactId>JogoDaVelha</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>Jogo da Velha</name>
+    <version>2.0</version>
+    <name>Tic Tac Toe</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -55,14 +55,14 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.raphaelcollin.jogodavelha.Main</mainClass>
+                            <mainClass>com.raphaelcollin.tictactoe.Main</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Class-Path>.</Class-Path>
                         </manifestEntries>
                     </archive>
 
-                    <finalName>Jogo da Velha-temp</finalName>
+                    <finalName>Tic Tac Toe-temp</finalName>
                 </configuration>
             </plugin>
 
@@ -78,10 +78,10 @@
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>${fully.qualified.main.class}</mainClass>
+                                    <mainClass>com.raphaelcollin.tictactoe.Main</mainClass>
                                 </transformer>
                             </transformers>
-                            <finalName>Jogo da Velha</finalName>
+                            <finalName>Tic Tac Toe</finalName>
                         </configuration>
                     </execution>
                 </executions>

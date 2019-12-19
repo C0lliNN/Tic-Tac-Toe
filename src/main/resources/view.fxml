@@ -1,0 +1,40 @@
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Slider?>
+
+<?import javafx.scene.control.Label?>
+<AnchorPane fx:id="root" fx:controller="com.raphaelcollin.tictactoe.Controller" onKeyPressed="#handleRootKeyPressed"
+            onMousePressed="#handleMousePressed" onMouseDragged="#handleMouseDragged" xmlns:fx="http://javafx.com/fxml">
+
+    <HBox fx:id="titleBarHBox" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+
+        <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+            <Label fx:id="titleLabel" text="Tic-Tac-Toe"/>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+            <Button fx:id="closeButton" onAction="#handleCloseWindow" text="X"/>
+        </HBox>
+
+    </HBox>
+
+    <Button fx:id="playButton" onAction="#handlePlayOnAction" disable="true" opacity="0" />
+
+    <HBox fx:id="hBoxAppIconImageView" alignment="CENTER" >
+        <ImageView fx:id="appIconImageView" opacity="0"/>
+    </HBox>
+
+
+    <ComboBox fx:id="languageIconComboBox" disable="true" opacity="0"/>
+
+    <Button fx:id="audioIconButton" onAction="#handleAudioButtonClick" onMouseEntered="#handleAudioButtonMouseEntered"
+            onMouseExited="#handleAudioButtonMouseExited" opacity="0"/>
+
+    <Slider fx:id="sliderVolume" orientation="VERTICAL" max="1.0" majorTickUnit="0.1"
+            onMouseEntered="#handleSliderVolumeMouseEntered" onMouseExited="#handleSliderVolumeMouseExited"/>
+
+
+</AnchorPane>

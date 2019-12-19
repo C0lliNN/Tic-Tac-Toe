@@ -1,11 +1,11 @@
-package com.raphaelcollin.jogodavelha.subclasses;
+package com.raphaelcollin.tictactoe.subclasses;
 
 import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.ListCell;
 import javafx.scene.image.ImageView;
 import javafx.stage.Screen;
 
-// Classe necessária para exibir Imagem em um ComboBox
+// This class is necessary to show an image in a ComboBox
 
 public class ImageListCell extends ListCell<LocatedImage> {
     private final ImageView imageView;
@@ -24,10 +24,10 @@ public class ImageListCell extends ListCell<LocatedImage> {
         } else {
             imageView.setImage(item);
 
-            double tamanhoImagem = Screen.getPrimary().getBounds().getWidth() * 0.015625; // 30px - 1920px
+            double imageSize = Screen.getPrimary().getBounds().getWidth() * 0.015625;
 
-            imageView.setFitWidth(tamanhoImagem);
-            imageView.setFitHeight(tamanhoImagem);
+            imageView.setFitWidth(imageSize);
+            imageView.setFitHeight(imageSize);
             setGraphic(imageView);
         }
     }
