@@ -10,6 +10,5 @@ An Desktop Application/Game developed in Java Using JavaFX that simulate the Tic
 ## Features ##
 
 * Nice Design
-* Animation which  
 * Animations that give the game more fluidity
 * Background Music e Sound Effects 
